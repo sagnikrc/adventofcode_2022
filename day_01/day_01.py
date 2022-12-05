@@ -1,4 +1,4 @@
-file1 = open('day_1_input.txt', 'r')
+file1 = open('day_01_input.txt', 'r')
 Lines = file1.readlines()
 
 max = 0

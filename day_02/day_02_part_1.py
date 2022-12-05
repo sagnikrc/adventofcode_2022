@@ -1,4 +1,4 @@
-file1 = open('day_2_input.txt', 'r')
+file1 = open('day_02_input.txt', 'r')
 Lines = file1.readlines()
 
 

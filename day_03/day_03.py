@@ -1,4 +1,4 @@
-file1 = open('day_3_input.txt', 'r')
+file1 = open('day_03_input.txt', 'r')
 Lines = file1.readlines()
 priority_sums = 0
 for line in Lines:
@@ -30,7 +30,7 @@ def score(c):
         return ord(c)-ord('A') + 1 + 26
 
 p2 = 0
-X = [line for line in open('day_3_input.txt','r')]
+X = [line for line in open('day_03_input.txt','r')]
 i = 0
 while i < len(X):
     for c in X[i]:

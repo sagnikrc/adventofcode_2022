@@ -24,7 +24,7 @@ def do_ranges_overlap(first_range, second_range):
     return (len(first_elf.intersection(second_elf)) > 0)
 
 
-file1 = open('day_4_input.txt', 'r')
+file1 = open('day_04_input.txt', 'r')
 Lines = file1.readlines()
 
 completely_overlapped_counter = 0
